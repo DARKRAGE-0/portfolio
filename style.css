@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@700&display=swap');
 body{
-	background: white;
+	background: #214252;
 	overflow-x: hidden;
 	font-family: Ubuntu;
 	cursor:url("mouse.png"), default;
@@ -13,12 +13,16 @@ body{
 	margin: 0;
 }
 .navBar{
-	width: 100%;
+	width: 90%;
 	height: 50px;
-	background: #214252;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%,0);
+	background: #F05454;
 	position: fixed;
 	display: flex;
 	flex-direction: row;
+	transition-duration: 0.3s;
 }
 .navBar *{
 	flex: 100%;
@@ -27,10 +31,10 @@ body{
 	font-size: 32px;
 	cursor:url("pointer.png"), default;
 	font-family: Fira Sans;
-	background: #214252;
+	background: #F05454;
 }
 .navBar button:hover{
-	background: #162C38;
+	background: #C72C41;
 }
 
 
@@ -66,5 +70,5 @@ body{
     background-color:transparent;border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #214252;
+    background-color: #ffffff;
 }
