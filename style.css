@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@700&display=swap');
+body{
+	background: white;
+	overflow-x: hidden;
+	font-family: Ubuntu;
+	cursor:url("mouse.png"), default;
+	font-size: 35px;
+	user-select: none;
+	width: 100%;
+	height: 1300px;
+	color: #6C63FF;
+	margin: 0;
+}
+.head{
+	font-family: Ubuntu;
+	font-size: 62px;
+}
+.heading{
+	top: 40%;
+	left: 10%;
+	transform: translate(0,-50%);
+	position: absolute;
+	max-width: 100%;
+	height: auto;
+}
+.dis{
+	font-size: 20px;
+	color: #C1C1CD;
+	font-family: Fira Sans;
+}
+.navBarTop{
+	width: 100%;
+	height: 58px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #645DD5;
+	border-bottom-right-radius: 15%;
+	border-bottom-left-radius: 15%;
+	z-index: 50;
+}
+.footer{
+	height: 100px;
+	width: 100%;
+	background-color: #535461;
+	left: 0;
+	position: absolute;
+	border-top: 5px solid #494955;
+}
+.Nitem{
+}
+.br1{
+	display: none;
+}
+.coding{
+	width: 400px;
+	height: 300px;
+	top: 44%;
+	left: 60%;
+	transform: translate(0,-50%);
+	position: absolute;
+}
+.hr{
+	width: 90%;
+	height: 3px;
+	background-color: #C1C1CD;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,0);
+	opacity: 0.5;
+}
+.buttonLearnMore{
+	width: 110px;
+	height:50px;
+	background-color:#6C63FF;
+	cursor:url("pointer.png"),default;
+	transform: translate(-50%,0);
+	border-radius: 10px;
+	transition-duration: 0.3s;
+	position: absolute;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+}
+.buttonLearnMore:hover{transform:translate(-50%,0) translateY(-6px);}
+.buttonLearnMore:active{background-color: #575988}
+
+
+
+
+.projectHead{
+	position: absolute;
+	top: 85%;
+	left: 0;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: Ubuntu;
+	font-size: 48px;
+}
+.projectPanel{
+	display: flex;
+	flex-direction: row;
+	height: 350px;
+	width: 500px;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%,0);
+	position: absolute;
+}
+.project{
+	background-color: #6C63FF;
+	border-radius: 15px;
+	margin: 10px;
+	flex-grow: 1;
+	transition-duration: 0.4s;
+	box-shadow: 5px 5px 5px gray;
+}
+.project:hover{
+	transform: translateY(-5%);
+	box-shadow: 10px 5px 20px gray;
+	background-color: #817AFF;
+}
+.project2{
+	background-image: url("project2.gif");
+	background-size: 100%, 20%;
+	background-repeat: no-repeat;	
+	border:1px solid gray;
+}
+.ptxt{
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: white;
+	border: 1px solid gray;
+	border-top: none;
+	width: 230px;
+	height: 100px;
+	position: absolute;
+	z-index: 10;
+	transition-duration: 0.4s;
+	font-size: 26px;
+	text-align: center;
+}
+.ptxtsmall{
+	font-family: Fira Sans;
+	font-size: 16px;
+	
+}
+.hr2{
+
+	width: 80%;
+}
+.headingDesign{
+	display: none;
+background: linear-gradient(270deg, rgba(149,143,255,1) 0%, rgba(255,255,255,1) 33%);
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 28px;
+    height: 1000px;
+  }
+  .head{
+  	font-size: 56px;
+  }
+  .headingDesign{
+  	display: block;
+  }
+  .navBarTop{
+  	height: 40px;
+  }
+  .br1{display: inline;}
+  .coding{display: none;}
+  .buttonLearnMore{
+  	width: 90px;height:35px;line-height: 35px;font-size: 14px;border-radius: 5px;
+  }
+  .projectHead{
+  	font-size: 36px;
+  }
+  .projectPanel{
+  	width: 300px;
+  	height: 220px;
+  }
+
+  .hr{
+  	transform: translateY(-45px) translate(-50%,0);
+  }
+  .ptxt{
+  	width: 128px;
+  	height: 80px;
+  	font-size: 17px;
+  	line-height: 24px;
+  }
+  .ptxtsmall{
+  	font-size: 13px;
+  	line-height: 18px;
+  }
+  .footer{
+  	height: 70px;
+  }
+}
+
+
+
+
+
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-track{
+    background-color:transparent;border-radius: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #645DD5;
+    border-radius: 4px;
+
+}
