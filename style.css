@@ -110,7 +110,7 @@ button:active{outline: none;}
 /* PROJECT SHOWCASE */
 .container{
 	position:absolute;top:650px;width:400px;transform:translate(-50%,0);
-	left: 50%;height: 300px;
+	box-shadow: 10px 10px 12px #2F2F2F;left: 50%;height: 300px;
 }
 .mySlides{display: none;}
 .cursor{cursor:url("pointer.png"), default;}
@@ -126,7 +126,8 @@ button:active{outline: none;}
 	background:#2F2F2F;color: white;
 	cursor:url("pointer.png"), default;}
 .caption-container {
-  text-align: center;color: white;top: 300px;position: absolute;
+  text-align: center;color: white;top: 315px;position: absolute;
+  box-shadow: 10px 10px 12px #2F2F2F;
   background-color: #222;height: 80px;width: 100%;font-size: 24px;}
 .row:after {content: "";display: table;clear: both;}
 .column {float: left;width: 16.66%; display: none;}
@@ -172,10 +173,15 @@ button:active{outline: none;}
 	height: 50px;
 }
 .container{
-	width: 200px;
-	height: 180px;
-	border: 3px solid #2F2F2F;
+	width: 250px;
+	height: 188px;
+	border: 1px solid #2F2F2F;
+	box-shadow: 5px 5px 6px #2F2F2F;
 	top: 370px;
+}
+.caption-container{
+	box-shadow: 5px 5px 6px #2F2F2F;
+	top: 200px;
 }
 .prev,.next{
 	background:#2F2F2F;color: white;width: 30px;
