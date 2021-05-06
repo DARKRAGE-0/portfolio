@@ -1,28 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@700&display=swap');
 body{
-	background: #214252;
+	background: #EEEEEE;
 	overflow-x: hidden;
 	font-family: Ubuntu;
 	cursor:url("mouse.png"), default;
 	font-size: 35px;
 	user-select: none;
 	width: 100%;
-	height: 1300px;
 	color: #6C63FF;
 	margin: 0;
+	display: flex;
+	flex-direction: column;
 }
+button{
+	border: none;
+	cursor:url("mouse.png"), default;
+	background: transparent;
+}
+button:active{outline: none;}
 .navBar{
 	width: 90%;
 	height: 50px;
 	left: 50%;
 	top: 0;
 	transform: translate(-50%,0);
-	background: #F05454;
+	background: #214252;
 	position: fixed;
 	display: flex;
 	flex-direction: row;
 	transition-duration: 0.3s;
+	z-index: 10;
 }
 .navBar *{
 	flex: 100%;
@@ -31,11 +39,76 @@ body{
 	font-size: 32px;
 	cursor:url("pointer.png"), default;
 	font-family: Fira Sans;
-	background: #F05454;
+	background: transparent;
+	transition-duration: 0.2s;
 }
-.navBar button:hover{
-	background: #C72C41;
+.navBar button:hover{background: #3F5C69;}
+.navBar button:focus{outline: none;}
+.header{
+	display: flex;
+	width: 100%;
+	height: 450px;
+	background: transparent;
+	top: 50px;
+	left: 0;
+	position: absolute;
+	overflow: hidden;
 }
+.header div{width: 100%;}
+.header * :hover{background: gray;}
+.headerText{
+	flex-basis: 140%;
+	text-align: center;
+	font-size: 54px;
+	font-family: Ubuntu;
+	border: none;
+	background-color: transparent;
+	color: #1C2023;
+}
+.headerPic img{width: 100%;}
+.projectsHeading{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	font-size: 44px;
+	color: #1C2023;
+	top: 540px;
+	font-family: Ubuntu;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hr1{
+	width: 70%;
+	height: 3px;
+	background: #214252;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+.hr2{
+	height: 5px;
+	width: 100%;
+	position: absolute;
+	top: 500px;
+	background: #214252;
+}
+.headling{
+	font-size: 32px;
+	font-family: Fira Sans;
+}
+
+
 
 
 
@@ -58,7 +131,38 @@ body{
 	font-size: 16px;
 	height: 100%;
 }
+.header{height: 240px;}
+.headerText{font-size: 26px;}
+.hr1{
+	width: 88%;
+	height: 2px;
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
+.hr2{
+	top: 280px;
+	height: 3px;
+}
+.headling{font-size: 16px;}
+.headerPic img{
+	top: 50%;
+	position: absolute;
+	transform: translate(0,-50%);
+}
+.projectsHeading{
+	top: 317px;
+	font-size: 30px;
+	height: 50px;
+}
+
+}
+
+
+
+
+
+
+
 
 
 
