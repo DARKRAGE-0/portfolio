@@ -1,0 +1,41 @@
+.navBar{
+	width: 90%;
+	height: 50px;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%,0);
+	background: #214252;
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	transition-duration: 0.3s;
+	z-index: 10;
+}
+.navBar *{
+	flex: 100%;
+	color: white;
+	border: none;
+	font-size: 32px;
+	cursor:url("pointer.png"), default;
+	font-family: Fira Sans;
+	background: transparent;
+	transition-duration: 0.2s;
+}
+.navBar button:hover{background: #3F5C69;}
+.navBar button:focus{outline: none;}
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+.navBar{
+	height: 40px;
+	margin: 0;
+	padding: 0;
+}
+.navBar *{
+	font-size: 16px;
+	height: 100%;
+}
+}

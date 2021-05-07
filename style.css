@@ -19,31 +19,6 @@ button{
 	background: transparent;
 }
 button:active{outline: none;}
-.navBar{
-	width: 90%;
-	height: 50px;
-	left: 50%;
-	top: 0;
-	transform: translate(-50%,0);
-	background: #214252;
-	position: fixed;
-	display: flex;
-	flex-direction: row;
-	transition-duration: 0.3s;
-	z-index: 10;
-}
-.navBar *{
-	flex: 100%;
-	color: white;
-	border: none;
-	font-size: 32px;
-	cursor:url("pointer.png"), default;
-	font-family: Fira Sans;
-	background: transparent;
-	transition-duration: 0.2s;
-}
-.navBar button:hover{background: #3F5C69;}
-.navBar button:focus{outline: none;}
 .header{
 	display: flex;
 	width: 100%;
@@ -133,6 +108,7 @@ button:active{outline: none;}
 .column {float: left;width: 16.66%; display: none;}
 .demo {opacity: 0.6;}
 .active,.demo:hover {opacity: 1;}
+.samp1{font-family: Fira Sans;}
 
 
 
@@ -140,15 +116,6 @@ button:active{outline: none;}
 
 
 @media only screen and (max-width: 500px) {
-.navBar{
-	height: 40px;
-	margin: 0;
-	padding: 0;
-}
-.navBar *{
-	font-size: 16px;
-	height: 100%;
-}
 .header{height: 240px;}
 .headerText{font-size: 26px;}
 .hr1{
@@ -189,7 +156,6 @@ button:active{outline: none;}
 }
 .prev:hover,.next:hover{background:#2F2F2F;color: white;}
 .next {left: 105%;}
-
 }
 
 
