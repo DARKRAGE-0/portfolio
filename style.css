@@ -19,6 +19,7 @@ button{
 	background: transparent;
 }
 button:active{outline: none;}
+button:focus{outline: none;}
 .header{
 	display: flex;
 	width: 100%;
