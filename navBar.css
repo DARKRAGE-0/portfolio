@@ -17,10 +17,15 @@
 	border: none;
 	font-size: 32px;
 	cursor:url("pointer.png"), default;
-	font-family: Fira Sans;
+	font-family: Fira Sans, sans-serif;
 	background: transparent;
-	transition-duration: 0.2s;
+	transition-duration: 0.25s;
+	border-right: 1px solid #405D6A;
 }
+.theme{
+	flex-shrink: 2;
+}
+.navBar button{width: 100%;height: 100%;}
 .navBar button:hover{background: #3F5C69;}
 .navBar button:focus{outline: none;}
 
@@ -34,7 +39,7 @@
 	margin: 0;
 	padding: 0;
 }
-.navBar *{
+.navBar a{
 	font-size: 16px;
 	height: 100%;
 }

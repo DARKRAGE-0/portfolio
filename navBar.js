@@ -6,3 +6,4 @@ window.onscroll = function() {
 	else{document.querySelector(".navBar").style.top = "-50px";}
   	prevScrollpos = currentScrollPos;
 }
+

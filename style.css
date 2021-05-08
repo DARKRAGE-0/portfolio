@@ -3,7 +3,7 @@
 body{
 	background: #EEEEEE;
 	overflow-x: hidden;
-	font-family: Ubuntu;
+	font-family: Ubuntu, monospace;
 	cursor:url("mouse.png"), default;
 	font-size: 35px;
 	user-select: none;
@@ -36,7 +36,7 @@ button:focus{outline: none;}
 	flex-basis: 140%;
 	text-align: center;
 	font-size: 54px;
-	font-family: Ubuntu;
+	font-family: Ubuntu, monospace;
 	border: none;
 	background-color: transparent;
 	color: #1C2023;
@@ -49,22 +49,8 @@ button:focus{outline: none;}
 	font-size: 44px;
 	color: #1C2023;
 	top: 540px;
-	font-family: Ubuntu;
+	font-family: Ubuntu, monospace;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hr1{
 	width: 70%;
 	height: 3px;
@@ -72,18 +58,34 @@ button:focus{outline: none;}
 	margin-top: 24px;
 	margin-bottom: 16px;
 }
-.hr2{
-	height: 5px;
-	width: 100%;
-	position: absolute;
-	top: 500px;
-	background: #214252;
-}
 .headling{
 	font-size: 32px;
-	font-family: Fira Sans;
+	font-family: Fira Sans, sans-serif;
 }
-/* PROJECT SHOWCASE */
+.msg1{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	background: black;
+	top: 650px;
+	margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PROJECT SHOWCASE 
 .container{
 	position:absolute;top:650px;width:400px;transform:translate(-50%,0);
 	box-shadow: 10px 10px 12px #2F2F2F;left: 50%;height: 300px;
@@ -109,7 +111,7 @@ button:focus{outline: none;}
 .column {float: left;width: 16.66%; display: none;}
 .demo {opacity: 0.6;}
 .active,.demo:hover {opacity: 1;}
-.samp1{font-family: Fira Sans;}
+.samp1{font-family: Fira Sans;}*/
 
 
 
@@ -120,22 +122,13 @@ button:focus{outline: none;}
 .header{height: 240px;}
 .headerText{font-size: 26px;}
 .hr1{
-	width: 88%;
-	height: 2px;
-	margin-top: 8px;
-	margin-bottom: 8px;
-}
-.hr2{
-	top: 280px;
-	height: 3px;
+	display: none;
 }
 .headling{font-size: 16px;}
 .headerPic img{
-	top: 50%;
-	position: absolute;
-	transform: translate(0,-50%);
+	display: none;
 }
-.projectsHeading{
+/*.projectsHeading{
 	top: 317px;
 	font-size: 30px;
 	height: 50px;
@@ -156,7 +149,7 @@ button:focus{outline: none;}
 	height: 40px;top: 50%;transform: translate(0,50%);
 }
 .prev:hover,.next:hover{background:#2F2F2F;color: white;}
-.next {left: 105%;}
+.next {left: 105%;}*/
 }
 
 
@@ -170,11 +163,11 @@ button:focus{outline: none;}
 
 
 ::-webkit-scrollbar{
-    width: 6px;
+    width: 8px;
 }
 ::-webkit-scrollbar-track{
-    background-color:transparent;border-radius: 4px;
+    background-color:transparent;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #ffffff;
+    background-color: #214252;
 }
