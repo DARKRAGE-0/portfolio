@@ -53,11 +53,11 @@
 
 
 /*	 THEMES   */
-.navBarLight{background: #214252;}
-.navBarLight button:hover{background: #3F5C69;}
-.navBarDark{background: #EB1C49;}
-.navBarDark a:hover{background: #9C1431;border-right: 1px solid #0D0D0B;}
-.navBarDark button{border-right: 1px solid #0D0D0B;}
+.navBarLight{background:#214252;}
+.navBarLight button:hover{background:#3F5C69;}
+.navBarDark{background:#282828;}
+.navBarDark a:hover{background:#353535;border-right: 1px solid #0D0D0B;}
+.navBarDark button{border-right:1px solid #0D0D0B;}
 
 
 

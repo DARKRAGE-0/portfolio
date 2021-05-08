@@ -39,7 +39,7 @@ button:focus{outline: none;}
 	border: none;
 	background-color: transparent;
 }
-.headerPic img{width: 100%;}
+.headerPic img{width: 100%}
 .projectsHeading{
 	width: 100%;
 	height: 100px;
@@ -75,86 +75,13 @@ button:focus{outline: none;}
 
 
 
-
-
-
-
-
-
-
-/* PROJECT SHOWCASE 
-.container{
-	position:absolute;top:650px;width:400px;transform:translate(-50%,0);
-	box-shadow: 10px 10px 12px #2F2F2F;left: 50%;height: 300px;
-}
-.mySlides{display: none;}
-.cursor{cursor:url("pointer.png"), default;}
-.prev,.next {
-  cursor: pointer;width: 40px;height: 60px;
-  position: absolute;font-size: 20px;
-  top: 50%;user-select: none;text-align: center;
-  margin-top:-50px;color: #2F2F2F;left:-40px;
-  font-weight: bold;border-radius:3px;
-}
-.next {left: 100%;}
-.prev:hover,.next:hover{
-	background:#2F2F2F;color: white;
-	cursor:url("pointer.png"), default;}
-.caption-container {
-  text-align: center;color: white;top: 315px;position: absolute;
-  box-shadow: 10px 10px 12px #2F2F2F;
-  background-color: #222;height: 80px;width: 100%;font-size: 24px;}
-.row:after {content: "";display: table;clear: both;}
-.column {float: left;width: 16.66%; display: none;}
-.demo {opacity: 0.6;}
-.active,.demo:hover {opacity: 1;}
-.samp1{font-family: Fira Sans;}*/
-
-
-
-
-
-
 @media only screen and (max-width: 500px) {
 .header{height: 240px;}
 .headerText{font-size: 26px;}
-.hr1{
-	display: none;
-}
+.hr1{display: none;}
 .headling{font-size: 16px;}
-.headerPic img{
-	display: none;
+.headerPic img{display: none;}
 }
-/*.projectsHeading{
-	top: 317px;
-	font-size: 30px;
-	height: 50px;
-}
-.container{
-	width: 250px;
-	height: 188px;
-	border: 1px solid #2F2F2F;
-	box-shadow: 5px 5px 6px #2F2F2F;
-	top: 370px;
-}
-.caption-container{
-	box-shadow: 5px 5px 6px #2F2F2F;
-	top: 200px;
-}
-.prev,.next{
-	background:#2F2F2F;color: white;width: 30px;
-	height: 40px;top: 50%;transform: translate(0,50%);
-}
-.prev:hover,.next:hover{background:#2F2F2F;color: white;}
-.next {left: 105%;}*/
-}
-
-
-
-
-
-
-
 
 
 
@@ -168,11 +95,6 @@ button:focus{outline: none;}
 ::-webkit-scrollbar-thumb{
     background-color: #787F83;
 }
-
-
-
-
-
 /*	 THEMES	*/
 .bodyLight{background: #EEEEEE;}
 .bodyDark{background: #474747;}
