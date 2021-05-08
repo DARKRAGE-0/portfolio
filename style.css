@@ -8,7 +8,6 @@ body{
 	font-size: 35px;
 	user-select: none;
 	width: 100%;
-	color: #6C63FF;
 	margin: 0;
 	display: flex;
 	flex-direction: column;
@@ -39,7 +38,6 @@ button:focus{outline: none;}
 	font-family: Ubuntu, monospace;
 	border: none;
 	background-color: transparent;
-	color: #1C2023;
 }
 .headerPic img{width: 100%;}
 .projectsHeading{
@@ -54,7 +52,6 @@ button:focus{outline: none;}
 .hr1{
 	width: 70%;
 	height: 3px;
-	background: #214252;
 	margin-top: 24px;
 	margin-bottom: 16px;
 }
@@ -169,5 +166,17 @@ button:focus{outline: none;}
     background-color:transparent;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #214252;
+    background-color: #787F83;
 }
+
+
+
+
+
+/*	 THEMES	*/
+.bodyLight{background: #EEEEEE;}
+.bodyDark{background: #474747;}
+.headerTextLight{color: #214252;}
+.headerTextDark{color: #B5C0C6;}
+.hr1Light{background: #214252;}
+.hr1Dark{background: #B5C0C6;border: none;}
