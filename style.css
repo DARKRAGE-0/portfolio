@@ -8,6 +8,7 @@ body{
 	font-size: 35px;
 	user-select: none;
 	width: 100%;
+	height: 200%;
 	margin: 0;
 	display: flex;
 	flex-direction: column;
@@ -55,17 +56,58 @@ button:focus{outline: none;}
 	margin-top: 24px;
 	margin-bottom: 16px;
 }
+.hr2{
+	position: absolute;
+	background: #214252;
+	width: 100%;
+	height: 3px;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+.hr3{
+	position: absolute;
+	background: #214252;
+	width: 100%;
+	height: 3px;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
 .headling{
 	font-size: 32px;
 	font-family: Fira Sans, sans-serif;
 }
 .msg1{
-	width: 100%;
-	height: 200px;
+	width: 90%;
+	height: 300px;
 	position: absolute;
-	background: black;
 	top: 650px;
-	margin-top: 100px;
+	left: 50%;
+	margin-top: 50px;
+	display: flex;
+	background:url("design1.png");
+	box-shadow: 10px 10px gray;
+	transform: translate(-50%,0%);
+}
+.msg1Pic{
+	flex: 40%;
+	background:no-repeat url("crypto.svg");
+	background-size: 300px;
+	background-position: center;
+}
+.msg1Text{
+	flex: 60%;
+	text-align: center;
+	font-family: Fira Sans, sans-serif;
+	color: white;
+	font-size: 32px;
+	padding-right: 10%;
+	padding-top: 2%;
+}
+.tag1{
+	position: absolute;
+	height: auto;
+	width: auto;
+	font-family: Ubuntu, monospace;
 }
 
 
@@ -81,6 +123,7 @@ button:focus{outline: none;}
 .hr1{display: none;}
 .headling{font-size: 16px;}
 .headerPic img{display: none;}
+.msg1{display: none;}
 }
 
 
@@ -96,9 +139,13 @@ button:focus{outline: none;}
     background-color: #787F83;
 }
 /*	 THEMES	*/
+.tag1Light{color: #214252;}
+.tag1Dark{color: #CECECD;}
 .bodyLight{background: #EEEEEE;}
 .bodyDark{background: #474747;}
 .headerTextLight{color: #214252;}
 .headerTextDark{color: #B5C0C6;}
-.hr1Light{background: #214252;}
-.hr1Dark{background: #B5C0C6;border: none;}
+.hrLight{background: #214252;}
+.hrDark{background: #B5C0C6;border: none;}
+.msg1Light{background:#214252 url("design1.png");box-shadow: 10px 10px gray;color: white;}
+.msg1Dark{background:#606060 url("design2.png");box-shadow: 10px 10px #292A2D;color: #CECECD;}
