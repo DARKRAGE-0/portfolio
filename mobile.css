@@ -1,0 +1,10 @@
+@media only screen and (max-width: 450px) {
+
+.menu{
+	height: 40px;
+}
+.menu *{
+	font-size: 20px;
+	padding: 6px;
+}
+}
