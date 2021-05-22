@@ -1,6 +1,5 @@
 body{
 	background: rgb(16, 18, 19);
-	overflow-x: hidden;
 	font-family: Ubuntu, monospace;
 	cursor:url("mouse.png"), default;
 	font-size: 35px;
@@ -70,4 +69,24 @@ content{
 	position: fixed;
 	z-index: -1;
 	opacity: 0.3;
+}
+#imageViewer{
+	width: 90%;
+	height: 80%;
+	background-color: rgb(16, 18, 19);
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	z-index: 5;
+	display: none;
+}
+#closeBut{
+	width: 50px;
+	height: 50px;
+	left: 100%;
+	top: 0%;
+	font-size: 42px;
+	transform: translateX(-100%);
+	position: absolute;
+	color: white;
 }
