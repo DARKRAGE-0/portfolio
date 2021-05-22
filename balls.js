@@ -43,6 +43,6 @@ function line() {
 	ctx.moveTo(canvasWidth,0);
 	ctx.lineTo(canvasWidth,canvasHeight);
 	ctx.strokeStyle='hsl('+hue$+',50%,50%)';
-	ctx.lineWidth = 2;
+	ctx.lineWidth = 4;
 	ctx.stroke();
 }

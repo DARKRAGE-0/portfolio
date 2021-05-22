@@ -7,9 +7,8 @@
 	font-size: 20px;
 	padding: 6px;
 }
-header{
+.header{
 	height: 340px;
-	width: 100%;
 	font-size: 42px;
 	padding-top: 80px;
 }
@@ -30,7 +29,6 @@ content{
 	height: 200px;
 	background: gray;
 	width: 100%;
-	border: 1px solid red;
 }
 #closeBut{
 	font-size: 28px;
