@@ -52,11 +52,12 @@ header{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 content{
 	height: 200px;
 	background: yellow;
-	width: 50%;
+	width: 33%;
 	border: 1px solid red;
 }
 
