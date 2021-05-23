@@ -1,4 +1,6 @@
 #work1{
-	background-image: url('work/work1.png');
+	background-image: url('work/work1.svg');
 	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }

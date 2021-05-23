@@ -1,0 +1,14 @@
+footer{
+	height: 300px;
+	background-color: white;
+	opacity: 0.5;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+footer{
+	height: 150px;
+}
+
+}
