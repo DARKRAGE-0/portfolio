@@ -4,14 +4,13 @@
 	<link rel="stylesheet" type="text/css" href="scrollbar.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="mobile.css">
+	<link rel="stylesheet" type="text/css" href="textEffect1.css">
 	<link rel="stylesheet" type="text/css" href="work.css">
 	<link rel="stylesheet" type="text/css" href="footer.css">
 	<link rel="icon" href="icon2.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-<body>
-	<!-- IMAGE VIEWER -->
-	<div id="imageViewer"><div id="closeBut">&#10095&#10094</div></div>
+<body onresize="canvasSize()">
 	<!-- CANVAS -->
 	<canvas class="canvas1"></canvas>
 	<!-- MENU -->
@@ -21,17 +20,23 @@
 		<div id="workBut">Work</div>
 	</div>
 	<!-- HEADER -->
-	<div class="header">|Anwaar Make<br>|Things<br>|That<br>|Makes<br>|People<br>|Think.</div>
+	<div class="header"><samp class="headingText">|Anwaar Make<br>|Things<br>|That<br>|Makes<br>|People<br>|Think.</samp></div>
 	<!-- ABOUT -->
-	<content id="content"><strong>HELLO</strong><br>Im Anwaar, A Photoshop Expert.<br>You can see Some of my work below.</content>
+	<content id="content"><strong>HELLO</strong><br>Im Anwaar, A Photoshop Expert. You can see Some of my work below.</content>
 	<!-- CONTENT -->
 	<div id="contentList">
-	<content id="work1" onclick="window.open('work/work1.html', '_self');">Gold Style text i wrote.</content>
-	<content>2</content>
-	<content>3</content>
+	<content id="work1" onclick="window.open('work/work1.html','_self')"></content>
+	
 	</div>
 	<!-- FOOTER -->
-	<footer><br><br><br>Copyright 2021 by Refsnes Data.<br>All Rights Reserved<br><br>As a Frontend Developer This Website was created by myself.</footer>
+	<footer><br><br><br>Copyright 2021 by Refsnes Data.<br>All Rights Reserved<br><br>As A Frontend Developer, I Created This Website Myself.</footer>
+	<!-- MAIL -->
+	<section id="mailBox"><div>
+		<form name="contact" method="POST" data-netlify="true" >
+			<label>Your Name: <input type="text" name="name" class="name" placeholder="Your name" /></label><button type="submit" class="submitBut">Send</button> <br>
+			<label>Message: <textarea name="message" placeholder="Leave a Message..." class="msg"></textarea></label>
+		</form>
+	</div></section>
 	<!-- SCRIPT -->
 	<script type="text/javascript" src="balls.js"></script>
 	<script type="text/javascript" src="canvas1.js"></script>

@@ -48,10 +48,14 @@ body{
 	font-size: 32px;
 	color: white;
 	height: 150px;
-	width: 100%;
+	width: 90%;
 	margin: 0;
+	margin-left: 5%;
+	margin-right: 5%;
 	background: rgb(16, 18, 19);
 	border: none;
+	font-family:  Fira Sans, monospace;
+	animation: glow 2500ms linear infinite 2500ms;
 }
 #contentList{
 	height: 35%;
@@ -71,7 +75,54 @@ content{
 	width: 30%;
 	margin: 1.5%;
 }
-
+/* Footer is styled in its respective file */
+section{
+	height: 320px;
+}
+section > div {
+	padding-top: 15px;
+	background: white;
+	border-radius: 30px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 80%;
+	height: 90%;
+	font-size: 32px;
+	color: rgb(48, 168, 192);
+	border: 8px solid rgb(48, 168, 192);
+}
+.submitBut{
+	font-size: x-large;
+	margin-left: 5px;
+	border-radius: 10px;
+	color: white;
+	border-color: rgb(48, 168, 192);
+	background: rgb(48, 168, 192);
+}
+label{
+	padding-left: 10px;
+}
+.name{
+	width: 60%;
+	font-size: x-large;
+	vertical-align: middle;
+	border:1px solid rgb(48, 168, 192);
+}
+.msg{
+	background-color: transparent;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border:none;
+	border-top:1px solid rgb(48, 168, 192);
+	font-size: xx-large;
+	resize: none;
+	width: 100%;
+	height: 75%;
+}
+.name:focus{outline: none;}
+.msg:focus{outline: none;}
 
 #homeBut{
 	text-decoration: underline;
@@ -81,24 +132,4 @@ content{
 	position: fixed;
 	z-index: -1;
 	opacity: 0.5;
-}
-#imageViewer{
-	width: 90%;
-	height: 80%;
-	background-color: rgb(16, 18, 19);
-	position: fixed;
-	top: 0%;
-	left: 0%;
-	z-index: 5;
-	display: none;
-}
-#closeBut{
-	width: 50px;
-	height: 50px;
-	left: 100%;
-	top: 0%;
-	font-size: 42px;
-	transform: translateX(-100%);
-	position: absolute;
-	color: white;
 }
