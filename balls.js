@@ -6,7 +6,7 @@ class Balls{
 		this.y = 0 - 10;
 		this.size = 10;
 		this.speedY = (Math.random() * 5) + 3;
-		this.color = 'hsl('+hue+',50%,50%)';
+		this.color = 'hsl('+hue+',80%,50%)';
 	}
 	update(){
 		this.x -= this.speedY/2;
