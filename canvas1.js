@@ -1,3 +1,5 @@
+const mailBoxDiv = document.querySelector('.mailBoxDiv');
+const submitBut = document.querySelector('.submitBut');
 const canvas = document.querySelector('.canvas1');
 const ctx = canvas.getContext("2d");
 let canvasWidth;
@@ -18,6 +20,9 @@ function animate() {
 	line();
 	hue+=10;
 	hue$+=2;
+	mailBoxDiv.style.color = 'hsl('+hue$+',50%,50%)';
+	submitBut.style.backgroundColor = 'hsl('+hue$+',50%,50%)';
+	mailBoxDiv.style.borderColor = 'hsl('+hue$+',50%,50%)';
 	requestAnimationFrame(animate);
 }
 animate();

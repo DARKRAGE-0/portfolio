@@ -1,1 +1,2 @@
-let imageViewer = document.querySelector('#imageViewer');
+
+if (window.innerWidth<450){submitBut.innerHTML = 'Send'}
