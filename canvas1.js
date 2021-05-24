@@ -9,6 +9,8 @@ canvasWidth = canvas.width = window.innerWidth;
 canvasHeight = canvas.height = window.innerHeight;
 canvas.style.height = window.innerHeight + "px";
 canvas.style.width = window.innerWidth + "px";
+if (window.innerWidth<450){submitBut.innerHTML = 'Send'}
+else{submitBut.innerHTML = 'Send &#9993'}
 }
 canvasSize();
 let hue = 0;

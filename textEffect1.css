@@ -19,9 +19,6 @@
   100%{background-size: 300% 300%;}
 }
 }
-  @keyframes glow {
-    40% {
-      text-shadow: 0 0 8px #fff;
-    }
-  }
-
+@keyframes glow {
+    40% {text-shadow: 0 0 8px #fff;}
+}

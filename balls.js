@@ -20,7 +20,6 @@ class Balls{
 		ctx.fill();
 	}
 }
-
 function handleParticles() {
 
 	ballsArray.unshift(new Balls);
@@ -34,8 +33,6 @@ function handleParticles() {
 		}
 	}
 }
-
-
 function line() {
 	ctx.beginPath();
 	ctx.moveTo(0,0);
